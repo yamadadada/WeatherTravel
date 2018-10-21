@@ -1,5 +1,6 @@
 import sqlite3
 
+
 def parse_direction(wind_direction):
     if wind_direction == " " or wind_direction == "None" or wind_direction == "":
         return " "

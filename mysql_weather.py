@@ -6,7 +6,7 @@ import pymysql
 
 url = "http://www.tqyb.com.cn/data/gzWeather/gz_autoStationLive.js?random=0.22061433767633876"
 nowaday = time.strftime("%Y-%m-%d", time.localtime())
-url1 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/tempChart.do?nowDay=" + nowaday + "&obtid=G3443"
+url1 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/tempChart.do?nowDay=" + nowaday + "&obtid=G3156"
 url3 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/tempChart.do?nowDay=" + nowaday + "&obtid=59287"
 url4 = "http://www.tqyb.com.cn/data/gzWeather/obtDatas.js?random=0.80458761356101"
 
@@ -31,11 +31,14 @@ gz.min = " "
 gz.min_time = " "
 max_min_flag = 0
 for mx in max_min_list:
-    if mx['obtid'] == 'G3155':
+    if mx['obtid'] == 'G3220':
         gz.max = mx['maxtemp']
         gz.max_time = mx['maxttime']
         gz.min = mx['mintemp']
         gz.min_time = mx['minttime']
+        gz.wind_max_speed = mx['maxwd3smaxdf']
+        gz.wind_max_direction = ""
+        gz.wind_max_time = mx['wd3smaxtime'] + "  " + mx['wd3smaxdd']
         max_min_flag = 1
         break
 if(max_min_flag == 0):
@@ -45,29 +48,35 @@ if(max_min_flag == 0):
             gz.max_time = mx['maxttime']
             gz.min = mx['mintemp']
             gz.min_time = mx['minttime']
+            gz.wind_max_speed = mx['maxwd3smaxdf']
+            gz.wind_max_direction = ""
+            gz.wind_max_time = mx['wd3smaxtime'] + "  " + mx['wd3smaxdd']
             max_min_flag = 1
             break
 if (max_min_flag == 0):
     for mx in max_min_list:
-        if mx['obtid'] == 'G3220':
+        if mx['obtid'] == 'G3155':
             gz.max = mx['maxtemp']
             gz.max_time = mx['maxttime']
             gz.min = mx['mintemp']
             gz.min_time = mx['minttime']
+            gz.wind_max_speed = mx['maxwd3smaxdf']
+            gz.wind_max_direction = ""
+            gz.wind_max_time = mx['wd3smaxtime'] + "  " + mx['wd3smaxdd']
             break
 data = json.loads(r.text.split('gz_autoStationLive = ')[1][:-12])
 last_date = data['moniDate'].split(' ')[0]
 now_date = data['moniDate'].split(' ')[3]
 hour_list = data["hoursList"]
-t_list = data["data"]["G3155"]["actT"]
-r_list = data["data"]["G3155"]["actR"]
-ws_list = data["data"]["G3155"]["actWS"]
-wd_list = data["data"]["G3155"]["actWD"]
+t_list = data["data"]["G3220"]["actT"]
+r_list = data["data"]["G3220"]["actR"]
+ws_list = data["data"]["G3220"]["actWS"]
+wd_list = data["data"]["G3220"]["actWD"]
 h_list = data["data"]["G3220"]["actH"]
 flag = 0
 j = 0
 
-db = pymysql.connect("localhost", "root", "jerry75911", "gzweather")
+db = pymysql.connect("localhost", "root", "123456", "gzweather")
 con = db.cursor()
 
 for i in range(24):
@@ -86,11 +95,7 @@ for i in range(24):
     else:
         gz.humidity = int(str(h_list[i]).split(".")[0]) / 100
     if i >= len(json_data):
-        gz.wind_max_speed = ""
-        gz.wind_max_direction = ""
-        gz.wind_max_time = ""
         gz.pressure = ""
-        j = j - 1
     else:
         if gz.dateTime == json_data[j]['ddatetime'][:-5]:
             gz.wind_max_speed = json_data[j]['wd3smaxdf'] / 10
@@ -98,9 +103,6 @@ for i in range(24):
             gz.wind_max_time = json_data[j]['wd3smaxtime']
             gz.pressure = pressure_list[j]['p'] / 10
         else:
-            gz.wind_max_speed = " "
-            gz.wind_max_direction = " "
-            gz.wind_max_time = " "
             gz.pressure = " "
             j = j - 1
     sql = "insert into weather(dateTime, temperature, rain, windSpeed, windDirection, windmaxspeed, " \

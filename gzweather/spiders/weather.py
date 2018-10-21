@@ -12,7 +12,7 @@ class WeatherSpider(scrapy.Spider):
     def parse(self, response):
         print(response)
         nowaday = time.strftime("%Y-%m-%d", time.localtime())
-        url1 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/tempChart.do?nowDay=" + nowaday + "&obtid=G3443"
+        url1 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/tempChart.do?nowDay=" + nowaday + "&obtid=G3156"
         url2 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/rhChart.do?nowDay=" + nowaday + "&obtid=G3101"
         url3 = "http://data.tqyb.com.cn/webLocalOssmob01/ns/tempChart.do?nowDay=" + nowaday + "&obtid=59287"
         url4 = "http://www.tqyb.com.cn/data/gzWeather/obtDatas.js?random=0.80458761356101"
