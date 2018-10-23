@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3460758c-9749-4a46-a751-cb2fc14186a8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WeatherData.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/mysql_weather.py" afterPath="$PROJECT_DIR$/mysql_weather.py" />
-      <change beforePath="$PROJECT_DIR$/test.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/gzweather$WriteData.coverage" NAME="WriteData Coverage Results" MODIFIED="1517414343586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gzweather" />
-    <SUITE FILE_PATH="coverage/gzweather$mysql_weather.coverage" NAME="mysql_weather Coverage Results" MODIFIED="1540208936436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gzweather$mysql_weather.coverage" NAME="mysql_weather Coverage Results" MODIFIED="1540312062754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gzweather$WriteToTxt.coverage" NAME="WriteToTxt Coverage Results" MODIFIED="1534651003143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gzweather$weather.coverage" NAME="weather Coverage Results" MODIFIED="1533918684680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gzweather/spiders" />
     <SUITE FILE_PATH="coverage/gzweather$test.coverage" NAME="test Coverage Results" MODIFIED="1533464119972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -57,8 +55,8 @@
       <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gzweather/spiders/weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+            <state relative-caret-position="1104">
+              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -67,24 +65,24 @@
       <file leaf-file-name="mysql_weather.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysql_weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
               <folding>
-                <marker date="1540208969228" expanded="true" signature="3522:3852" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3868" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3878" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3894" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3914" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3933" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3956" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3957" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:3989" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:4004" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:4019" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:4029" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:4044" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:4054" ph="insert into weather... " />
-                <marker date="1540208969228" expanded="true" signature="3522:4069" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:3909" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:3925" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:3935" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:3951" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:3971" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:3990" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4013" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4014" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4046" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4061" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4076" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4086" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4101" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4111" ph="insert into weather... " />
+                <marker date="1540312084853" expanded="true" signature="3579:4126" ph="insert into weather... " />
               </folding>
             </state>
           </provider>
@@ -336,9 +334,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31927025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31927025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.340935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22961374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23283261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -400,9 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -418,7 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -466,9 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,9 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,9 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
           <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,36 +672,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gzweather/mysql_weather.py" />
-    <entry file="file://$PROJECT_DIR$/WeatherData.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2208">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherData.txt" />
     <entry file="file://$PROJECT_DIR$/gzweather/spiders/weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="1104">
+          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/WriteToTxt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <marker date="1534167963609" expanded="true" signature="1316:1337" ph="select * fro... weather" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,30 +700,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql_weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="433">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
           <folding>
-            <marker date="1540208969228" expanded="true" signature="3522:3852" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3868" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3878" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3894" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3914" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3933" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3956" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3957" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:3989" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:4004" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:4019" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:4029" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:4044" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:4054" ph="insert into weather... " />
-            <marker date="1540208969228" expanded="true" signature="3522:4069" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:3909" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:3925" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:3935" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:3951" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:3971" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:3990" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4013" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4014" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4046" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4061" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4076" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4086" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4101" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4111" ph="insert into weather... " />
+            <marker date="1540312084853" expanded="true" signature="3579:4126" ph="insert into weather... " />
           </folding>
         </state>
       </provider>

@@ -76,7 +76,7 @@ h_list = data["data"]["G3220"]["actH"]
 flag = 0
 j = 0
 
-db = pymysql.connect("localhost", "root", "132456", "gzweather")
+db = pymysql.connect("localhost", "root", "123456", "gzweather")
 con = db.cursor()
 
 for i in range(24):
@@ -98,9 +98,11 @@ for i in range(24):
         gz.wind_max_speed = json_data[j]['wd3smaxdf'] / 10
         gz.wind_max_direction = json_data[j]['wd3smaxdd']
         gz.wind_max_time = json_data[j]['wd3smaxtime']
-        gz.pressure = pressure_list[j]['p'] / 10
+        if j < len(pressure_list):
+            gz.pressure = pressure_list[j]['p'] / 10
+        else:
+            gz.pressure = " "
     else:
-        gz.pressure = " "
         j = j - 1
     sql = "insert into weather(dateTime, temperature, rain, windSpeed, windDirection, windmaxspeed, " \
           "windmaxdirection, windmaxtime, humidity, pressure, max, maxttime, min, minttime) VALUES('{}','{}', '{}', " \
