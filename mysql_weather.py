@@ -98,7 +98,7 @@ for i in range(24):
         gz.wind_max_speed = json_data[j]['wd3smaxdf'] / 10
         gz.wind_max_direction = json_data[j]['wd3smaxdd']
         gz.wind_max_time = json_data[j]['wd3smaxtime']
-        if j < len(pressure_list):
+        if j < len(pressure_list) and pressure_list[j]['p'] is not None:
             gz.pressure = pressure_list[j]['p'] / 10
         else:
             gz.pressure = " "
