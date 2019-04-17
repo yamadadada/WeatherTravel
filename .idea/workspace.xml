@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3460758c-9749-4a46-a751-cb2fc14186a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gzweather.iml" afterPath="$PROJECT_DIR$/.idea/gzweather.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mysql_weather.py" afterPath="$PROJECT_DIR$/mysql_weather.py" />
     </list>
@@ -14,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/gzweather$WriteData.coverage" NAME="WriteData Coverage Results" MODIFIED="1517414343586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gzweather" />
-    <SUITE FILE_PATH="coverage/gzweather$mysql_weather.coverage" NAME="mysql_weather Coverage Results" MODIFIED="1543889442628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gzweather$mysql_weather.coverage" NAME="mysql_weather Coverage Results" MODIFIED="1555477959061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gzweather$WriteToTxt.coverage" NAME="WriteToTxt Coverage Results" MODIFIED="1534651003143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gzweather$weather.coverage" NAME="weather Coverage Results" MODIFIED="1533918684680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gzweather/spiders" />
     <SUITE FILE_PATH="coverage/gzweather$test.coverage" NAME="test Coverage Results" MODIFIED="1533464119972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -52,37 +54,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="weather.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gzweather/spiders/weather.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mysql_weather.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysql_weather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+            <state relative-caret-position="1518">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
               <folding>
-                <marker date="1543889473114" expanded="true" signature="3617:3947" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:3963" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:3973" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:3989" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4009" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4028" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4051" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4052" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4084" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4099" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4114" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4124" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4139" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4149" ph="insert into weather... " />
-                <marker date="1543889473114" expanded="true" signature="3617:4164" ph="insert into weather... " />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1555478018580" expanded="true" signature="3621:3951" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:3967" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:3977" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:3993" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4013" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4032" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4055" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4056" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4088" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4103" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4118" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4128" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4143" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4153" ph="insert into weather... " />
+                <marker date="1555478018580" expanded="true" signature="3621:4168" ph="insert into weather... " />
               </folding>
             </state>
           </provider>
@@ -123,7 +116,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -145,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -163,13 +155,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -327,22 +320,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31927025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31927025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.340935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18723176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20332618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -697,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gzweather/spiders/weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
+        <state relative-caret-position="-306">
           <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
           <folding />
         </state>
@@ -705,24 +698,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql_weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        <state relative-caret-position="1518">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
           <folding>
-            <marker date="1543889473114" expanded="true" signature="3617:3947" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:3963" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:3973" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:3989" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4009" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4028" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4051" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4052" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4084" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4099" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4114" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4124" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4139" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4149" ph="insert into weather... " />
-            <marker date="1543889473114" expanded="true" signature="3617:4164" ph="insert into weather... " />
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1555478018580" expanded="true" signature="3621:3951" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:3967" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:3977" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:3993" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4013" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4032" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4055" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4056" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4088" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4103" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4118" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4128" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4143" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4153" ph="insert into weather... " />
+            <marker date="1555478018580" expanded="true" signature="3621:4168" ph="insert into weather... " />
           </folding>
         </state>
       </provider>

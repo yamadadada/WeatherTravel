@@ -70,13 +70,13 @@ now_date = data['moniDate'].split(' ')[3]
 hour_list = data["hoursList"]
 t_list = data["data"]["G3220"]["actT"]
 r_list = data["data"]["G3220"]["actR"]
-ws_list = data["data"]["G3220"]["actWS"]
-wd_list = data["data"]["G3220"]["actWD"]
+ws_list = data["data"]["G3242"]["actWS"]
+wd_list = data["data"]["G3242"]["actWD"]
 h_list = data["data"]["G3220"]["actH"]
 flag = 0
 j = 0
 
-db = pymysql.connect("localhost", "root", "123456", "gzweather")
+db = pymysql.connect("localhost", "root", "3116004646", "gzweather")
 con = db.cursor()
 
 for i in range(24):
@@ -115,21 +115,5 @@ for i in range(24):
                 gz.wind_max_direction, gz.wind_max_time, gz.humidity, gz.pressure, gz.max, gz.max_time, gz.min,
                 gz.min_time)
     con.execute(sql)
-    print("时间:" + str(gz.dateTime))
-    print("温度:" + str(gz.temperature))
-    print("降水量：" + str(gz.rain))
-    print("风速:" + str(gz.windSpeed))
-    print("风向:" + str(gz.windDirection))
-    print("最大风速:" + str(gz.wind_max_speed))
-    print("最大风向:" + str(gz.wind_max_direction))
-    print("最大风速时间:" + str(gz.wind_max_time))
-    print("湿度:" + str(gz.humidity))
-    print("气压:" + str(gz.pressure))
-    print("最高温度:" + str(gz.max))
-    print("最高温度时间:" + str(gz.max_time))
-    print("最低温度:" + str(gz.min))
-    print("最低温度时间:" + str(gz.min_time))
-    j = j + 1
-    print("--------------------------------")
 db.commit()
 db.close()
