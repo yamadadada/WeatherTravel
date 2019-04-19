@@ -115,5 +115,6 @@ for i in range(24):
                 gz.wind_max_direction, gz.wind_max_time, gz.humidity, gz.pressure, gz.max, gz.max_time, gz.min,
                 gz.min_time)
     con.execute(sql)
+    j = j + 1
 db.commit()
 db.close()
