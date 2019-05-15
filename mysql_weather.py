@@ -90,6 +90,7 @@ for i in range(24):
     gz.rain = r_list[i]
     gz.windSpeed = ws_list[i]
     gz.windDirection = wd_list[i]
+    gz.pressure = ""
     if str(h_list[i]).split(".")[0] == "null" or str(h_list[i]).split(".")[0] == "None":
         gz.humidity = ""
     else:
@@ -100,8 +101,6 @@ for i in range(24):
         gz.wind_max_time = json_data[j]['wd3smaxtime']
         if j < len(pressure_list) and pressure_list[j]['p'] is not None:
             gz.pressure = pressure_list[j]['p'] / 10
-        else:
-            gz.pressure = " "
     else:
         j = j - 1
     sql = "insert into weather(dateTime, temperature, rain, windSpeed, windDirection, windmaxspeed, " \
@@ -116,5 +115,6 @@ for i in range(24):
                 gz.min_time)
     con.execute(sql)
     j = j + 1
+    print(gz.dateTime)
 db.commit()
 db.close()
